@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "name": "Node: Nodemon",
+      "processId": "${command:PickProcess}",
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "restart": true,
+      "protocol": "inspector"
+    },
+    {
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "name": "nodemon",
+      "program": "${workspaceFolder}/app.js",
+      "request": "launch",
+      "restart": true,
+      "runtimeExecutable": "nodemon",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
+      "type": "pwa-chrome",
+      "name": "http://localhost:5500/index.html",
+      "request": "launch",
+      "url": "http://localhost:5500/index.html"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "quick-javascript-snippets",
+  "version": "1.0.0",
+  "description": "General pupolar JavaScript usecases",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "nodemon --watch app.js --ext js --ignore '*.test.js' app.js --delay 1 app.js",
+    "debug": "nodemon --inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregsoares/quick-javascript-snippets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregsoares/quick-javascript-snippets/issues"
+  },
+  "homepage": "https://github.com/gregsoares/quick-javascript-snippets#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
